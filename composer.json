@@ -1,0 +1,22 @@
+{
+    "name": "simongomes/ship-to-ecourier",
+    "description": "eCourier Parcel booking automation plugin for WooCommerce",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Simon Gomes",
+            "email": "busy.s.simon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "ShipToEcourier\\": "includes/"
+      },
+      "files": [ "includes/functions.php" ]
+    },
+    "require": {
+        "appsero/client": "dev-develop"
+    }
+}
